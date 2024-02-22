@@ -12,3 +12,13 @@
     "vai ser retornado uma lista com todos os valores true"
 })
 */
+
+function validUserNames(usernames) {
+  // your code here
+  return usernames.filter((palavra) => {
+    return palavra.length < 10;
+  });
+}
+
+let resultado = validUserNames(["teste", "mouse", "asdk"]);
+console.log(resultado);
