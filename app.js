@@ -22,3 +22,5 @@ function validUserNames(usernames) {
 
 let resultado = validUserNames(["teste", "mouse", "asdk"]);
 console.log(resultado);
+
+console.log("teste");
